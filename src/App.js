@@ -1,13 +1,16 @@
 import './App.css';
-import Header from './Header'
+import Header from './Components/Header'
+import ItemListContainer from './Components/ItemListContainer';
+const App = () => {
 
-const app = () => {
+  const titulo = "Hola soy un titulo Prop"
+
   return (
     <>
       <Header />
-      
+      <ItemListContainer titulo = {titulo}  ejemplo = "segundo ejemplo de props"/>
     </>
   )
 }
 
-export default app;
+export default App;

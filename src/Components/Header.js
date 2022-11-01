@@ -1,6 +1,7 @@
-import { BiCartAlt } from "react-icons/bi";
+import CarWidget from "./CarWidget";
 
 const Header = () => {
+
     return (
 
         <div className="flex-header">
@@ -23,11 +24,7 @@ const Header = () => {
                     </ul>
                 </div>
 
-                <div className="icono">
-                    <p> <BiCartAlt />  </p>
-                    <div className="noti"> <span>2</span></div>
-                </div>
-                
+                <CarWidget />
 
             </header>
         </div>
